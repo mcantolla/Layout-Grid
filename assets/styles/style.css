@@ -4,8 +4,19 @@
     padding: 0;
 }
 
+/* GoogleFont */
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+/* Layout */
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+        'navbar navbar'
+        'sidebar main'
+        'footer footer';
+    grid-template-columns: 1fr 4fr;
 }
 
 aside {
@@ -76,15 +87,6 @@ span {
 
 .footer {
     grid-area: footer;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-areas: 
-        'navbar navbar'
-        'sidebar main'
-        'footer footer';
-    grid-template-columns: 1fr 4fr;
 }
 
 footer {
