@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 aside {
     background-color: rgb(231, 229, 229);
 }
@@ -60,6 +64,10 @@ span {
 .card-categories {
     display: flex;
     flex-direction: column;
+}
+
+.card-categories p {
+    font-weight: lighter;
 }
 
 .card-categories h3, p {
